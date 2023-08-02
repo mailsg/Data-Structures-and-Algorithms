@@ -1,5 +1,3 @@
----
-
 **Introduction to Linked Lists**
 
 Linked lists are a fundamental data structure in computer science, widely used for dynamic data storage and memory management. They form the backbone of many applications, and understanding them is crucial for any computer science undergraduate.
@@ -44,8 +42,6 @@ The time complexity of linked list operations varies:
 **Conclusion**
 
 In conclusion, linked lists are essential data structures that provide flexibility, dynamic size, and efficient memory usage. They are widely used in various applications, such as music playlists, task scheduling, and memory allocation. As computer science undergraduates, mastering linked lists will strengthen your foundation in data structures and algorithms.
-
----
 
 Let's go through the logic of the program step by step with examples:
 
