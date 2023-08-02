@@ -10,6 +10,7 @@
     - [Key Features](#key-features)  
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -56,7 +57,7 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
+In order to run this project you need **nodejs**. To download **nodejs** visit [nodejs.org](https://nodejs.org/en/download/).
 
 ```sh
    node filename.js
