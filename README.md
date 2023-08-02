@@ -60,6 +60,7 @@ To get a local copy up and running, follow these steps.
 In order to run this project you need **nodejs**. To download **nodejs** visit [nodejs.org](https://nodejs.org/en/download/).
 
 ```sh
+   npm install
    node filename.js
 ```
 
