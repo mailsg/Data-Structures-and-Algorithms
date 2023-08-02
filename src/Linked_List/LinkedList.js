@@ -58,6 +58,7 @@ class LinkedList {
       const new_node = new Node(number, prev_node.next_node);
       prev_node.next_node = new_node;
     }
+    this.size++;
   }
 
   remove(index) {
@@ -76,7 +77,7 @@ class LinkedList {
         this.tail = prev_node;
       }
     }
-    this.length--;
+    this.size--;
   }
 }
 
