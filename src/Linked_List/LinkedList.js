@@ -13,8 +13,8 @@ class LinkedList {
     this.size = 0;
   }
 
-  add(number) {
-    const newNode = new Node(number);
+  add(item) {
+    const newNode = new Node(item);
     if (!this.head) {
       this.head = newNode;
       this.tail = newNode;
@@ -41,21 +41,21 @@ class LinkedList {
     return current;
   }
 
-  addAt(index, number) {
+  addAt(index, item) {
     if (index < 0 || index > this.size) {
       return;
     }
     if (index === 0) {
-      const newNode = new Node(number, this.head);
+      const newNode = new Node(item, this.head);
       this.head = newNode;
       if (!this.tail) {
         this.tail = newNode;
       }
     } else if (index === this.size) {
-      this.add(number);
+      this.add(item);
     } else {
       const prev_node = this.get_node(index - 1);
-      const new_node = new Node(number, prev_node.next_node);
+      const new_node = new Node(item, prev_node.next_node);
       prev_node.next_node = new_node;
     }
     this.size++;
