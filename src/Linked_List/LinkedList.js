@@ -33,7 +33,7 @@ class LinkedList {
     for (let i = 0; i < index; i++) {
       current = current.next_node;
     }
-    return current;
+    return current; // return current !== null ? current.value : null;
   }
 
   addAt(index, item) {
