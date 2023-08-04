@@ -25,13 +25,8 @@ class LinkedList {
     this.size++;
   }
 
-  get(index) {
-    const node = this.get_node(index);
-    return node ? node.value : null;
-  }
-
   get_node(index) {
-    if (index < 0 || index > this.size) {
+    if (index < 0 || index >= this.size) {
       return null;
     }
     let current = this.head;
@@ -42,7 +37,7 @@ class LinkedList {
   }
 
   addAt(index, item) {
-    if (index < 0 || index > this.size) {
+    if (index < 0 || index >= this.size) {
       return;
     }
     if (index === 0) {
@@ -62,7 +57,7 @@ class LinkedList {
   }
 
   remove(index) {
-    if (index < 0 || index > this.size) {
+    if (index < 0 || index >= this.size) {
       return;
     }
     if (index === 0) {
