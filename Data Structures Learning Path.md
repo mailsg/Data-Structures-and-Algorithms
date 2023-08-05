@@ -46,3 +46,4 @@
 
 **To join us:**
 - If you wish to join the session or make your valuable contributions, kindly drop a mail to : **mailsg0912@gmail.com**
+- The session starts at 1830 hrs (UTC+1).
