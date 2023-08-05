@@ -33,9 +33,9 @@
 
 **Daily Agenda (1 hour)**
 
-- 10 minutes: Review and revise the concepts learned in the previous session
-- 40 minutes: Learn new topics, algorithms, or data structures
-- 10 minutes: Practice with coding exercises or small programming challenges
+- 10 minutes: Review and revise the concepts learned in the previous session.
+- 40 minutes: Learn new topics, algorithms, or data structures.
+- 10 minutes: Practice with coding exercises or small programming challenges.
 
 **Tips:**
 
