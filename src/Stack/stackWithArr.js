@@ -1,3 +1,4 @@
+/*eslint-disable*/
 // Using arrays
 class MyStack {
   constructor() {
@@ -6,9 +7,11 @@ class MyStack {
     this.bottom = null;
     this.length = 0;
   }
+
   peek() {
     return this.top;
   }
+
   push(value) {
     this.stack.push(value);
     this.bottom = this.stack[0];

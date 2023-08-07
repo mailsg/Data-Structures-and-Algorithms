@@ -1,3 +1,4 @@
+/*eslint-disable*/
 // Stacks using Linked list
 class Node {
   constructor(value) {
@@ -12,9 +13,11 @@ class Stack {
     this.bottom = null;
     this.length = 0;
   }
+
   peek() {
     return this.top;
   }
+
   push(value) {
     const newNode = new Node(value);
     if (this.isEmpty()) {
@@ -26,6 +29,7 @@ class Stack {
     }
     this.length++;
   }
+
   pop() {
     if (this.isEmpty()) {
       return null;
