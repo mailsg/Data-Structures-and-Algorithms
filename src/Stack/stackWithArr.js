@@ -3,8 +3,8 @@
 class MyStack {
   constructor() {
     this.stack = new Array();
-    this.top = null;
-    this.bottom = null;
+    this.top = undefined;
+    this.bottom = undefined;
     this.length = 0;
   }
 
