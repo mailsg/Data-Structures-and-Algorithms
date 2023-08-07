@@ -12,7 +12,7 @@ class MyStack {
     return this.top;
   }
 
-  push(value) {
+  append(value) {
     this.stack.push(value);
     this.bottom = this.stack[0];
     this.top = this.stack[this.stack.length - 1];
@@ -20,7 +20,7 @@ class MyStack {
     return this;
   }
 
-  pop() {
+  removeLast() {
     this.stack.pop();
     this.bottom = this.stack[0];
     this.top = this.stack[this.stack.length - 1];
@@ -30,8 +30,8 @@ class MyStack {
 }
 
 const stack = new MyStack();
-stack.push(5);
-stack.push(4);
-stack.push(3);
-stack.pop();
+stack.append(5);
+stack.append(4);
+stack.append(3);
+stack.removeLast();
 console.log(stack);

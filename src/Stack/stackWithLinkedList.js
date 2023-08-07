@@ -18,7 +18,7 @@ class Stack {
     return this.top;
   }
 
-  push(value) {
+  append(value) {
     const newNode = new Node(value);
     if (this.isEmpty()) {
       this.top = newNode;
@@ -30,7 +30,7 @@ class Stack {
     this.length++;
   }
 
-  pop() {
+  removeLast() {
     if (this.isEmpty()) {
       return null;
     }
@@ -45,10 +45,10 @@ class Stack {
 }
 /*
   const myStack = new Stack();
-  myStack.push(5);
-  myStack.push(4);
-  myStack.push(3);
-  myStack.pop();
+  myStack.append(5);
+  myStack.append(4);
+  myStack.append(3);
+  myStack.removeLast();
   console.log(myStack);
   console.log(myStack.peek());
   console.log(myStack.isEmpty());
