@@ -1,3 +1,4 @@
+/* eslint-disable camelcase, no-plusplus, max-classes-per-file */
 class Node {
     constructor(value, next_node){
         this.value = value;
