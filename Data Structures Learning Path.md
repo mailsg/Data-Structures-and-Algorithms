@@ -46,4 +46,4 @@
 
 **To join us:**
 - If you wish to join the session or make your valuable contributions, kindly drop a mail to : **mailsg0912@gmail.com**
-- Session is conducted on **Monday**, **Wednesday** and **Thursday** at **1830 Hours UTC+1**.
+- Session is conducted on **Monday**, **Wednesday** and **Thursday** at **1830 Hours UTC+1**
