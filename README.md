@@ -42,8 +42,8 @@
 ### Key Features <a name="key-features"></a>
 
 - **Linked Lists**
-- **Stacks**
 - **Queues**
+- **Stacks**
 - **Trees**
 - **Heaps**
 - **Graphs**
