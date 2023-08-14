@@ -1,3 +1,4 @@
+/*eslint-disable*/
 // Code 1
 class Queue {
   //FIFO
