@@ -33,7 +33,7 @@ class Queue {
       this.dequeueArr.push(this.enqueueArr.pop());
     }
     return this.dequeueArr[this.dequeueArr.length - 1];
-    this.enqueueArr.length - 1;
+    // this.enqueueArr.length - 1;
   }
 }
 
