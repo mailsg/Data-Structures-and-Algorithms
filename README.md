@@ -117,7 +117,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project kindly star it.
+If you like this project kindly star it. This will motivate us to come up with more content.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
