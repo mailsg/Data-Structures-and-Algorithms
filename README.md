@@ -48,6 +48,7 @@
 - **Heaps**
 - **Graphs**
 - **Sorting**
+- **Searching**
 
 <!-- GETTING STARTED -->
 
