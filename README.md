@@ -100,6 +100,7 @@ To run tests, run the following command:
 - [ ] **Leetcode Challenges**
 - [ ] **Hackerrank Challenges**
 - [ ] **Live Coding**
+- [ ] **Dynamic Programming**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
